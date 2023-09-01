@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1c2431;
+    /* width: 35vh; */
+    height: 50vh;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+
+#myButton1 {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    border: none;
+    margin-left: 5px;
+}
+
+#myButton2,
+#myButton3,
+#myButton4,
+#myButton5 {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    border: none;
+    margin-left: 5px;
+}
+
+#my-buuton {
+    border: none;
+    width: 20em;
+    height: 2em;
+    border-radius: 10px;
+    margin-top: 2em;
+}
